@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "scss-reproduce": [
+        "dist/scss-reproduce/scss-reproduce",
+        "dist/scss-reproduce"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
